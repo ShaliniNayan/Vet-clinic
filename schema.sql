@@ -7,5 +7,5 @@ id int GENERATED ALWAYS AS IDENTITY,
 escape_attempts int,
 neutered boolean,
 weight_kg decimal,
-species VARCHAR(50)
+ALTER TABLE animals ADD species varchar(255);
 );
