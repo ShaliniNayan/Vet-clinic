@@ -6,5 +6,6 @@ id int GENERATED ALWAYS AS IDENTITY,
  date_of_birth date,
 escape_attempts int,
 neutered boolean,
-weight_kg decimal
+weight_kg decimal,
+species VARCHAR(50)
 );
