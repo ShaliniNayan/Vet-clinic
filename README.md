@@ -35,9 +35,9 @@ After you're finished please remove all the comments and instructions!
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  <!-- - [Usage](#usage) -->
+  <!-- - [Run tests](#run-tests) -->
+  <!-- - [Deployment](#triangular_flag_on_post-deployment) -->
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -105,31 +105,27 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
 
 ```sh
  1.use a browser
 2.use cable internet
 ```
- -->
+
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
 
 ```sh
   cd my-folder
   git clone git@github.com:ShaliniNayan/Vet-clinic.git
 ```
---->
+-
 
-### Install
+<!-- ### Install -->
 
-Install this project with:
+<!-- Install this project with:
 
 <!--
 Example command:
@@ -138,11 +134,11 @@ Example command:
   cd my-project
   gem install
 ```
---->
+---> 
 
-### Usage
+<!-- ### Usage -->
 
-To run the project, execute the following command:
+<!-- To run the project, execute the following command: -->
 
 <!--
 Example command:
@@ -152,9 +148,9 @@ Example command:
 ```
 --->
 
-### Run tests
+<!-- ### Run tests
 
-To run tests, run the following command:
+To run tests, run the following command: -->
 
 <!--
 Example command:
@@ -164,9 +160,9 @@ Example command:
 ```
 --->
 
-### Deployment
+<!-- ### Deployment
 
-You can deploy this project using:
+You can deploy this project using: -->
 
 <!--
 Example:
