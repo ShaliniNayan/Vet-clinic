@@ -20,6 +20,10 @@ INSERT INTO owners (full_name, age) VALUES ('Melody Pond', 77);
 INSERT INTO owners (full_name, age) VALUES ('Dean Winchester', 14);
 INSERT INTO owners (full_name, age) VALUES ('Jodie Whittaker', 38);
 
+--Date Entries for species
+INSERT INTO species (name) VALUES ('Pokemon');
+INSERT INTO species (name) VALUES ('Digimon');
+
 -- Update Data Animals
 UPDATE animals
 SET species_id = (SELECT id FROM species WHERE name = 'Digimon') WHERE name LIKE '%mon';
@@ -29,7 +33,7 @@ UPDATE animals
 SET owner_id = (SELECT id FROM owners WHERE full_name = 'Sam Smith') WHERE name = 'Agumon';
 
 UPDATE animals
-vet_clinic-# SET owner_id = (SELECT id FROM owners WHERE full_name = 'Jennifer Orwell') WHERE name IN ('Gabumon', 'Pikachu');
+SET owner_id = (SELECT id FROM owners WHERE full_name = 'Jennifer Orwell') WHERE name IN ('Gabumon', 'Pikachu');
 
 UPDATE animals
 SET owner_id = (SELECT id FROM owners WHERE full_name = 'Bob') WHERE name IN ('Devimon', 'Plantmon');
