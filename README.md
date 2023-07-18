@@ -80,6 +80,8 @@ After you're finished please remove all the comments and instructions!
 - Schema based on diagram😊👌
 - OPtimization the foreign key with indexing💯
 - Use the many to many relationship🚀
+- Schema Diagram image :
+![Alt text](image.png)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

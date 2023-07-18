@@ -49,3 +49,8 @@ SELECT vt.name AS vet_name FROM vets vt JOIN visits v ON v.vet_id = vt.id JOIN a
 SELECT a.name AS animal_name, vt.name AS vet_name, v.visit_date FROM animals a JOIN visits v ON a.id = v.animal_id JOIN vets vt ON vt.id = v.vet_id ORDER BY v.visit_date DESC LIMIT 1; 
 SELECT COUNT(*) AS mismatched_visits FROM visits v JOIN vets vt ON vt.id = v.vet_id JOIN animals a ON a.id = v.animal_id LEFT JOIN specializations sp ON sp.vet_id = vt.id AND sp.species_id = a.species_id WHERE sp.vet_id IS NULL;
 SELECT s.name AS potential_specialty FROM animals a JOIN visits v ON a.id = v.animal_id JOIN vets vt ON vt.id = v.vet_id JOIN owners o ON o.id = a.owner_id JOIN species s ON s.id = a.species_id WHERE o.full_name = 'Maisy Smith' GROUP BY s.name ORDER BY COUNT(*) DESC LIMIT 1;
+
+-- Vet clinic database: database performance audit
+explain analyze SELECT COUNT(*) FROM visits where animals_id = 4;
+explain analyze SELECT * FROM visits where vets_id = 2;
+explain analyze SELECT * FROM owners where email = 'owner_18327@mail.com';
