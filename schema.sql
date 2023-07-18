@@ -47,3 +47,12 @@ CREATE TABLE visits (
     visit_date DATE,
     PRIMARY KEY (vet_id, animal_id, visit_date)
 );
+
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+ALTER TABLE owners ALTER COLUMN age DROP NOT NULL;
+
+
+-- Vet clinic database: database performance audit
+CREATE INDEX animals_order ON visits (animals_id ASC);
+CREATE INDEX vets_order ON visits (vets_id ASC);
+CREATE INDEX owners_email_asc ON owners (email ASC);
