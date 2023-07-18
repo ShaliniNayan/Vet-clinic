@@ -81,7 +81,8 @@ After you're finished please remove all the comments and instructions!
 - OPtimization the foreign key with indexing💯
 - Use the many to many relationship🚀
 - Schema Diagram image :
-![Alt text](image.png)
+![Vet_Clinic pgerd](https://github.com/ShaliniNayan/Vet-clinic/assets/117961613/d364bd34-eaf9-46cf-b806-f4b1c4720a1b)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
